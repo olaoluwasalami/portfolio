@@ -6,15 +6,23 @@ html {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  background-color:  #110c11; 
+  
+
 }
+
+a, img, #logo, .header, .nav, .nav a, #footer, #intro, #intro p, #intro a, #wrapper, #gallery, #gallery li, #about, #profilePhoto, #contact, #contact a, #overlay, #overlay img, #overlay p{
+  transition-duration:1000ms;
+}
+
 
 ul, li{
   list-style: none;
 }
 
 body {
- background-image: url("https://unsplash.com/photos/dLKZWv4PWjo");
- background-color:  #110c11;
+background-image: url('background.jpg');
+ background-color:  #110c11; 
 }
 
 /* beginning */
@@ -22,8 +30,8 @@ body {
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color:    #110c11;
-  padding: 20px 10px;
+  background-color:  #262626 ;
+  padding: 10px 10px;
 }
 
 /* Style the header links */
@@ -31,9 +39,10 @@ body {
   float: left;
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: bold;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -62,31 +71,59 @@ body {
 
 }
 
+.clearfix {
+   overflow: auto;
+   clear: both;
+} 
+
 
 .image {
-   align-items:   center;
+   border-radius: 50%;  
+   padding: 80px 0px 20px;
+  
+   
+  }
+
+.about{ 
+  /*display: flex;
+  justify-content: center;*/
+  color: white; 
+  /*float: right;*/
+  font-size: 40px;
+  padding: 10px 0px 0px 0px;
+  margin-top: 100px;
+  font-family: 'Noto Sans JP', sans-serif;
+ 
 }
 
-.about{border-style: solid;
-  border-color: white;
-  align-self:   right;
+.text{
+  /*display: flex;
+  justify-content: center;*/
+  color: white; 
+   font-size: 30px;
+  /*padding: 100px 0px 80px 80px;*/
+  /*margin-top: 90px;*/
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: italic;
+
+}
+/*p{ font-size: 20px;
+  font-family:font-family: 'Noto Sans JP', sans-serif;
   color: white;
-  margin: -150px 500px 0px 500px;
-  align-items:  right;
-
 }
+.center{
+  overflow: auto;
+}*/
 
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #F9F9F3;
   color: white;
   text-align: center;
   }
-
-
 
 footer {
   position: fixed;
@@ -95,21 +132,22 @@ footer {
   width: 100%;
   background-color:  #110c11;
   color: white;
-  text-align: center;
-
+  text-align: center;  
 }
 
 .foot{
-  display: inline-flex;
-  
-  margin: 0px 70px 0 70px;
+display: inline-flex;
+font-size: 30px;  
+cursor: pointer;
+margin-bottom: -20px;
+  margin-left: -50px;
 }
 
 
-
-
-
-
+.foot a {
+  padding: 10px;
+  
+}
 
 
 
@@ -120,7 +158,7 @@ footer {
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
-  .header a {
+  .header a , footer{
     float: none;
     display: block;
     text-align: left;
@@ -128,4 +166,3 @@ footer {
   .header-right {
     float: none;
   }
-}
