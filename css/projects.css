@@ -1,0 +1,27 @@
+ h1{
+ 	color: white;
+ 	text-align: center;
+ 	font: Arial;
+ }
+
+ .classname {
+ 	display: inline-flex;
+ 	flex-wrap: wrap;
+ 	text-align: center;
+ 	margin: auto 0;
+ 	align-content: space-between;
+
+ }
+
+ .classname a{
+ 	text-decoration: none;
+ 	color: white;
+ 	font-family: Helvetica;
+ 	text-align: center;
+ 	
+ }
+
+ .classname li{
+ 	align-content: space-between;
+ 	padding: 50px;
+ }

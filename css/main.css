@@ -1,0 +1,167 @@
+/* General Styling */
+html {
+
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a, img, #logo, .header, .nav, .nav a, footer, {
+  transition-duration:1000ms;
+}
+
+
+ul, li{
+  list-style: none;
+}
+
+body {
+background-image: url('../images/image1.jpg'); 
+background-color:  #110c11; 
+background-repeat : no-repeat;
+background-size : cover;
+background-position: center;
+position: relative;
+}
+
+
+
+ .button {
+  font: bold 15px Courier;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 6px 0px 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+/* beginning */
+
+/* Style the header with a grey background and some padding */
+
+
+.header {
+  overflow: hidden;
+  background-color:  #262626 ;
+  padding: 10px 20px;
+
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+
+}
+
+.clearfix {
+   overflow: auto;
+   clear: both;
+} 
+
+
+.image {
+   border-radius: 50%;  
+   padding: 80px 70px 0px 250px;
+  
+   
+  }
+
+.about{ 
+  /*display: flex;
+  justify-content: center;*/
+  color: white; 
+  /*float: right;*/
+  font-size: 40px;
+  padding: 5px 0px 0px 0px;
+  margin-top: 100px;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.text{
+  /*display: flex;
+  justify-content: center;*/
+  color: white; 
+   font-size: 30px;
+  padding: 0px 0px 0px 450px;
+  /*margin-top: 90px;*/
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: italic;
+
+}
+
+
+
+footer {
+   left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: fixed;  
+}
+
+.foot{
+display: inline-flex;
+font-size: 30px;  
+cursor: pointer;
+margin-bottom: -20px;
+margin-left: -50px;
+}
+
+
+.foot a {
+  padding: 10px;
+ color: white; 
+}
+
+
+
+
+
+
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a , footer{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
