@@ -4,12 +4,9 @@ html {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  
-  
-
 }
 
-a, img, #logo, .header, .nav, .nav a, #footer, #intro, #intro p, #intro a, #wrapper, #gallery, #gallery li, #about, #profilePhoto, #contact, #contact a, #overlay, #overlay img, #overlay p{
+a, img, #logo, .header, .nav, .nav a, footer, {
   transition-duration:1000ms;
 }
 
@@ -43,10 +40,13 @@ position: relative;
 /* beginning */
 
 /* Style the header with a grey background and some padding */
+
+
 .header {
   overflow: hidden;
   background-color:  #262626 ;
-  padding: 10px 10px;
+  padding: 10px 20px;
+
 }
 
 /* Style the header links */
@@ -122,32 +122,16 @@ position: relative;
   font-style: italic;
 
 }
-/*p{ font-size: 20px;
-  font-family:font-family: 'Noto Sans JP', sans-serif;
-  color: white;
-}
-.center{
-  overflow: auto;
-}*/
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #F9F9F3;
-  color: white;
-  text-align: center;
-  }
+
 
 footer {
-  position: fixed;
-  left: 0;
+   left: 0;
   bottom: 0;
   width: 100%;
-  /*background-color:  #110c11;*/
   color: white;
-  text-align: center;  
+  text-align: center;
+  position: fixed;  
 }
 
 .foot{
@@ -155,7 +139,7 @@ display: inline-flex;
 font-size: 30px;  
 cursor: pointer;
 margin-bottom: -20px;
-  margin-left: -50px;
+margin-left: -50px;
 }
 
 
