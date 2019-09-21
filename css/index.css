@@ -1,12 +1,10 @@
 /* General Styling */
 html {
-  margin: 0;
-  padding: 0;
-  border: 0;
+
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  background-color:  #110c11; 
+  
   
 
 }
@@ -21,10 +19,27 @@ ul, li{
 }
 
 body {
-background-image: url('background.jpg');
- background-color:  #110c11; 
+background-image: url('../images/image1.jpg'); 
+background-color:  #110c11; 
+background-repeat : no-repeat;
+background-size : cover;
+background-position: center;
+position: relative;
 }
 
+
+
+ .button {
+  font: bold 15px Courier;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 6px 0px 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
 /* beginning */
 
 /* Style the header with a grey background and some padding */
@@ -79,7 +94,7 @@ background-image: url('background.jpg');
 
 .image {
    border-radius: 50%;  
-   padding: 80px 0px 20px;
+   padding: 80px 70px 0px 250px;
   
    
   }
@@ -90,10 +105,10 @@ background-image: url('background.jpg');
   color: white; 
   /*float: right;*/
   font-size: 40px;
-  padding: 10px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
   margin-top: 100px;
   font-family: 'Noto Sans JP', sans-serif;
- 
+
 }
 
 .text{
@@ -101,7 +116,7 @@ background-image: url('background.jpg');
   justify-content: center;*/
   color: white; 
    font-size: 30px;
-  /*padding: 100px 0px 80px 80px;*/
+  padding: 0px 0px 0px 450px;
   /*margin-top: 90px;*/
   font-family: 'Noto Sans JP', sans-serif;
   font-style: italic;
@@ -130,7 +145,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:  #110c11;
+  /*background-color:  #110c11;*/
   color: white;
   text-align: center;  
 }
@@ -146,7 +161,7 @@ margin-bottom: -20px;
 
 .foot a {
   padding: 10px;
-  
+ color: white; 
 }
 
 
