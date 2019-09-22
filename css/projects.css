@@ -1,8 +1,10 @@
  h1{
  	color: white;
  	text-align: center;
- 	font: Arial;
- }
+	font: 'Courier New', Courier, monospace;
+	margin-top: 3%;
+	 
+ 	}
 
  .classname {
  	display: inline-flex;
@@ -11,7 +13,7 @@
  	margin: auto 0;
  	align-content: space-between;
 
- }
+ 			}
 
  .classname a{
  	text-decoration: none;
@@ -19,9 +21,9 @@
  	font-family: Helvetica;
  	text-align: center;
  	
- }
+ 			}
 
  .classname li{
  	align-content: space-between;
- 	padding: 50px;
- }
+ 	padding: 2rem;
+ 			}
