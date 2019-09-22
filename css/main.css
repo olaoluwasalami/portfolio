@@ -1,6 +1,7 @@
 /* General Styling */
 html {
-
+  width: 100%;
+  max-width: 100%;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -15,14 +16,42 @@ ul, li{
   list-style: none;
 }
 
-body {
+.hero-unit__background-image {
+  position: absolute;
+  z-index: -1;  
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/image1.jpg');
+  background-size: cover;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
 background-image: url('../images/image1.jpg'); 
 background-color:  #110c11; 
 background-repeat : no-repeat;
 background-size : cover;
 background-position: center;
 position: relative;
-}
+}*/
 
 
 
@@ -94,7 +123,7 @@ position: relative;
 
 .image {
    border-radius: 50%;  
-   padding: 80px 70px 0px 250px;
+   padding: 90px 70px 0px 250px;
   
    
   }
@@ -105,10 +134,11 @@ position: relative;
   color: white; 
   /*float: right;*/
   font-size: 40px;
-  padding: 5px 0px 0px 0px;
+  margin-top: 40px;
+  padding: x 0px 0px 0px;
   margin-top: 100px;
   font-family: 'Noto Sans JP', sans-serif;
-
+  text-shadow:0 2px 3px rgba(0,0,0,0.2);
 }
 
 .text{
@@ -131,21 +161,24 @@ footer {
   width: 100%;
   color: white;
   text-align: center;
-  position: fixed;  
+  position: fixed;
+  margin-bottom: auto;
+margin-left: auto;  
 }
 
 .foot{
 display: inline-flex;
 font-size: 30px;  
 cursor: pointer;
-margin-bottom: -20px;
-margin-left: -50px;
+margin-bottom: auto;
+margin-left: auto;
 }
 
 
 .foot a {
-  padding: 10px;
+  padding: 13px;
  color: white; 
+ font-weight: bolder;
 }
 
 
@@ -157,11 +190,89 @@ margin-left: -50px;
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
-  .header a , footer{
-    float: none;
-    display: block;
-    text-align: left;
+  html{
+    width: 100%;
   }
+
+  .header a ,{
+    display: inline-flex;
+     font-size: 80%;
+  }
+  .image {
+   border-radius: 50%;  
+   padding: 30% 70px 0px 0px;
+   height: 100px;
+    width: 100px;
+ }
+
+   .about, .text{
+    float: none;
+    font-size: 100%;
+   }
+  
+
   .header-right {
     float: none;
   }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+media screen and (max-width: 500px) {
+  html{
+    width: 100%;
+  }
+
+  .header a ,{
+    display: inline-flex;
+     font-size: 80%;
+  }
+  .image {
+   border-radius: 50%;  
+   padding: 30% 70px 0px 0px;
+   height: 100px;
+    width: 100px;
+ }
+
+   .about, .text{
+    float: none;
+    font-size: 100%;
+   }
+  
+
+  .header-right {
+    float: none;
+  }
+
+
+
+
+@media (min-width:960px) { body {font-size:1.2rem;} 
+
+media screen and (max-width: 500px) {
+  html{
+    width: 100%;
+  }
+
+  .header a ,{
+    display: inline-flex;
+     font-size: 80%;
+  }
+  .image {
+   border-radius: 50%;  
+   padding: 30% 70px 0px 0px;
+   height: 100%;
+    width: 100%;
+ }
+
+   .about, .text{
+    float: none;
+    font-size: 100%;
+   }
+  
+
+  .header-right {
+    float: none;
+  }
+
+} 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+/* Tablet Landscape */
