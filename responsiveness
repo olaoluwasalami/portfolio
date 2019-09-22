@@ -1,0 +1,87 @@
+@media screen and (min-width: 480px){
+	.header{
+		padding-bottom: 1%;
+	}
+	.nav a{
+	font-size: 1.4em;
+	font-weight: 800;
+	padding:10px 7px;
+	}
+	#intro p{
+	font-size: 3em;
+	}
+	#overlay{
+	top:100%;
+	}
+	#overlay img{
+	width:90%;
+	padding-top: 10%;
+	padding-left: 5%;
+	}
+}
+
+@media screen and (min-width: 735px){
+	#profilePhoto{
+		float:left;
+		margin:5% 5% 250px 5%;
+	}
+	#primary{
+		width:50%;
+		float:left;
+	}
+	#secondary{
+		width:40%;
+		float:right;
+	}
+	#gallery li{
+		width:25%;
+		margin:2% 4%;
+		float:left;
+	}
+	#gallery li:nth-child(3){
+	clear:none;
+	}
+	#gallery li:nth-child(5){
+		clear:none;
+	}
+	#gallery li:nth-child(4){
+		clear:left;
+	}
+
+	.nav {
+		background:none;
+		float:right;
+		text-align: right;
+		width:45%;
+		margin-right:5%;
+	}
+	#logo{
+		float:left;
+		text-align: left;
+		margin-left:5%;
+	}
+	.header{
+		padding-bottom: 1%;
+	}
+	#overlay{
+	top:90%;
+	height:70%;
+	}
+	#overlay img{
+	width:90%;
+	padding-top: 10%;
+	padding-left: 5%;
+	}
+
+}
+
+@media screen and (min-width: 900px){
+	#overlay{
+	height:100%;
+	padding-bottom: 10%;
+	}
+	#overlay p{
+	padding-bottom: 0;
+	}
+}
+© 2019 GitHub, Inc.
