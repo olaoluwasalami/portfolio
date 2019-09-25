@@ -32,15 +32,6 @@ ul, li{
 }
 
 
-/*body {
-background-image: url('../images/image1.jpg'); 
-background-color:  #110c11; 
-background-repeat : no-repeat;
-background-size : cover;
-background-position: center;
-position: relative;
-}*/
-
 
 
  .button {
@@ -130,29 +121,18 @@ position: relative;
   text-shadow:0 2px 3px rgba(0,0,0,0.2);
 }
  
-/* .text{
-  display: flex;
-  justify-content: center;
-  color: white; 
-   font-size: 30px;
-  padding: 0px 0px 0px 450px;
-  margin-top: 90px;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-style: italic;  */
-
-}
-
-
 
 footer {
-   left: 0;
-  bottom: 0;
   width: 100%;
   color: white;
+  background-color: #262626;
   text-align: center;
   position: fixed;
-  margin-bottom: auto;
-margin-left: auto;  
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  padding-top: 0%;
+
 }
 
 .foot{

@@ -4,7 +4,7 @@
         height:auto;
         margin: 5% 10% 5% 10%;
         border: 3px solid #e0ffff;
-       background-color: blanchedalmond;
+       background-color:  #110c11;
        padding: 2% 2% 2% 2%;
       }
 
@@ -12,10 +12,11 @@ h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    color: white;
 }
     
 p{
     font-size: 140%;
     font-family: 'Arial Narrow', Arial, sans-serif;
-    
+    color: white;
 }
