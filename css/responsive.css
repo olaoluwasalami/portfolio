@@ -2,7 +2,7 @@
 	.header{
 		padding-bottom: 1%;
 	}
-	.nav a{
+	.header {
 	font-size: 1.4em;
 	font-weight: 800;
 	padding:10px 7px;
@@ -10,21 +10,21 @@
 	#intro p{
 	font-size: 3em;
 	}
-	#overlay{
-	top:100%;
+	.about, .text {
+		font-size-adjust: 5px; 
+
 	}
-	#overlay img{
-	width:90%;
-	padding-top: 10%;
-	padding-left: 5%;
-	}
-}
 
 @media screen and (min-width: 735px){
-	#profilePhoto{
+	image{
 		float:left;
 		margin:5% 5% 250px 5%;
-	}
+		height: 80px;
+   		 width: 80px;
+}
+		
+		
+			}
 	#primary{
 		width:50%;
 		float:left;
@@ -48,26 +48,7 @@
 		clear:left;
 	}
 
-	.nav {
-		background:none;
-		float:right;
-		text-align: right;
-		width:45%;
-		margin-right:5%;
-	}
-	#logo{
-		float:left;
-		text-align: left;
-		margin-left:5%;
-	}
-	.header{
-		padding-bottom: 1%;
-	}
-	#overlay{
-	top:90%;
-	height:70%;
-	}
-	#overlay img{
+	
 	width:90%;
 	padding-top: 10%;
 	padding-left: 5%;
